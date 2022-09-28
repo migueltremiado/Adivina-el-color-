@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>adivinacolor</title>
+    <meta name="keywords" content="juegos, colores, hackaboss" />
+    <meta
+      name="juego de eleccion de colores RGB"
+      content="juegos,aprendizaje, hackaboss, proyectos, javascript,css,html"
+    />
+    <meta name="author" content="Amilcar Ruiz & Miguel Alonso" />
+    <link rel="stylesheet" href="estiloscss/adivinacolor.css" type="text/css" />
+    <script src="adivinacolor.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="imagenes/favicon3.ico"
+    />
+  </head>
+  <body>
+    <header>
+      <aside>
+        <h1>Adivina el Color</h1>
+        <h2>Relaciona el código RGB, con el color adecuado, ¿te atreves?</h2>
+      </aside>
+    </header>
+    <main>
+      <div class="principal">
+        <div class="iniciar">
+          <div class="boton">
+            <button class="iniciarPartida">Iniciar Partida</button>
+          </div>
+          <div class="colorcompara"><p id="rgb"></p></div>
+        </div>
+        <div class="muestras">
+          <div class="muestra1">
+            <p class="opcion1">Da Click si es el color correcto</p>
+          </div>
+          <div class="muestra2">
+            <p class="opcion2">Da Click si es el color correcto</p>
+          </div>
+          <div class="muestra3">
+            <p class="opcion3">Da Click si es el color correcto</p>
+          </div>
+        </div>
+        <div class="marcador">
+          <div class="acierto">
+            <p id="aciertos" style="background-color: aliceblue">ACIERTOS:</p>
+          </div>
+          <div class="resultados">
+            <p id="resultadoPartida"></p>
+          </div>
+          <div class="acierto">
+            <p id="errores" style="background-color: aliceblue">ERRORES:</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="end">
+        <div class="nombres">
+          <p>Miguel Alonso & Amilcar Ruiz</p>
+          <p>Proyecto I 2022</p>
+        </div>
+        <div class="logo">
+          <img src="imagenes/logo2.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
